@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokedex</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/scss" href="style.scss">
+</head>
+<script type="text/javascript" src="main.js"></script>
+<body>
+    <div class="overall-container" style="width: 450px;">
+        <div class="type-dropdown">
+            <button>Select a Pokemon Type!</button> 
+            <div class="pokemon-types">
+                <option value="normal">Normal</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="grass">Grass</option>
+                <option value="electric">Electric</option>
+                <option value="ice">Ice</option>
+                <option value="fighting">Fighting</option>
+                <option value="poison">Poison</option>
+                <option value="ground">Ground</option>
+                <option value="flying">Flying</option>
+                <option value="psychic">Psychic</option>
+                <option value="bug">Bug</option>
+                <option value="rock">Rock</option>
+                <option value="ghost">Ghost</option>
+                <option value="dark">Dark</option>
+                <option value="dragon">Dragon</option>
+                <option value="steel">Steel</option>
+                <option value="fairy">Fairy</option>
+            </div>
+        </div>
+
+        <h2 class="text-center">Pokemon Data and Report</h2>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Country</th>
+                <th>Confirmed</th>
+                <th>Deaths</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="date"></td>
+                <td id="areaName"></td>
+                <td id="latestBy"></td>
+                <td id="deathNew"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
