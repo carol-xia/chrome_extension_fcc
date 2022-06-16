@@ -1,1 +1,0 @@
-const Pokemon = require('pokemon.js');
