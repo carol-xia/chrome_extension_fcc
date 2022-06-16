@@ -4,6 +4,8 @@ picArray.forEach(el => {
   el.classList.add('spinspin');
 })
 
+
+
 // const first = document.createElement('button');
 // first.innerText = "SET DATA";
 // first.id = "first";

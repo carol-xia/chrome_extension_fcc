@@ -14,11 +14,13 @@
     },
     "options_page": "./options.html",
     "browser_action": {
+        "default_icon": {
+            "16": "./16x16.png"
+        },
         "default_popup": "popup.html"
     },
     "permissions": [
         "tabs",
-        "https://www.codesmith.io/about",
-        "storage"
+        "https://www.codesmith.io/about"
     ]
 }

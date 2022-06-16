@@ -10,6 +10,8 @@ chrome.tabs.onActivated.addListener(tab => {
     });
 });
 
+chrome.storage.local.get('onClick', )
+
 // chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 //     if(request.message === 'check the storage'){
 //         chrome.storage.local.get("password", value => {
