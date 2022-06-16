@@ -1,7 +1,7 @@
 {
   "name": "chrome_extension_fcc",
   "version": "1.0.0",
-  "description": "Chrome Extension to show the latest data on covid of UK ======= ![covid_report](https://user-images.githubusercontent.com/11813341/152206544-8e629f40-bf26-4623-8a75-9621183fd0b5.gif)",
+  "description": "Chrome Extension to show pokemon data",
   "main": "controller.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Dennishly/chrome_extension_fcc#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "i": "^0.3.7",
     "npm": "^8.12.2",
     "pokemon.js": "^1.1.8"

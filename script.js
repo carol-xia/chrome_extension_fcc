@@ -10,10 +10,9 @@
 // fetchData();
 
 function togglePokemonList(){
-  document.getElementById("pokemon-types").classList.toggle("show");
-  document.getElementByValue("normal").classList.toggle("show");
-  document.getElementByValue("fire").classList.toggle("show");
-  
+  document.getElementById("select-pokemon").classList.toggle("show");
+  // document.getElementByValue("normal").classList.toggle("show");
+  // document.getElementByValue("fire").classList.toggle("show");
 }
 
 {/* <option value="normal">Normal</option>

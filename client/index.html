@@ -4,14 +4,18 @@
     <title>Pokedex</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/scss" href="style.scss">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+<script type="text/javascript" src="main.js"></script>
+<script src="script.js"></script>
+
 <body>
     <div class="overall-container" style="width: 450px;">
         <div class="type-dropdown">
-            <button>Select a Pokemon Type!</button> 
+            <button id="select-pokemon" onClick="togglePokemonList()">Select a Pokemon Type!</button> 
             <div class="pokemon-types">
-                <option value="normal">Normal</option>
+                <option value="normal" onClick="">Normal</option>
                 <option value="fire">Fire</option>
                 <option value="water">Water</option>
                 <option value="grass">Grass</option>
@@ -31,29 +35,15 @@
                 <option value="fairy">Fairy</option>
             </div>
         </div>
-
-        <h2 class="text-center">Pokemon Data and Report</h2>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>Date</th>
-                <th>Country</th>
-                <th>Confirmed</th>
-                <th>Deaths</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td id="date"></td>
-                <td id="areaName"></td>
-                <td id="latestBy"></td>
-                <td id="deathNew"></td>
-            </tr>
-            </tbody>
-        </table>
     </div>
+
+    <label for="type-dropdown">Choose a Pokemon Type! </label>
+    <select name="type-dropdown" id="type-dropdown">
+            <option value="ditto" onClick="">Ditto</option>
+            <option value="ditto">Ditto</option>
+    </div>
+
 </body>
-<script src="script.js"></script>
 </html>
 
 

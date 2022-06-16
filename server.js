@@ -5,12 +5,12 @@ const { stringify } = require('querystring');
 const controller = require('./controller');
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, './../client')));
+app.use(express.static(path.join(__dirname, './client/index.html')));
 
-//GET middleware
-app.get('/pokemon', controller.getPokemon, (req, res) => {
-  res.status(200).json(res.locals.data);
-});
+// GET middleware
+// app.get('/pokemon', controller.getPokemon, (req, res) => {
+//   res.status(200).json(res.locals.data);
+// });
 
 //global error handler
 app.use((err, req, res, next) => {
