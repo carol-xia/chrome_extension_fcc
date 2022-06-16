@@ -1,11 +1,11 @@
 {
-    "name": "Covid-19 Stats UK",
+    "name": "Pokedex",
     "version": "1.0.0",
-    "description": "latest covid data of UK",
+    "description": "get first gen pokemon data",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
+    "author": "Dennis Ly and Carol Xia",
     "action":{
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
+        "default_title": "Pokedex"
     }
 }
