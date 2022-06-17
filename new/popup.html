@@ -15,15 +15,12 @@
         <p>Value: <span id="demo"></span></p>
     </div>
 
-    <script>
-        var slider = document.getElementById("myRange");
-        var output = document.getElementById("demo");
-        output.innerHTML = slider.value;
-        
-        slider.oninput = function() {
-          output.innerHTML = this.value;
-        }
-    </script>
+    <h2>Rotate</h2>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <p>Value: <span id="demo"></span></p>
+    </div>
+
     
 </body>
 
@@ -33,5 +30,13 @@
 <!-- <img style="display: inline;" src="code meme.png" alt="logo" />
     <h1 style="display: inline;">What do you call a bear with no teeth...?</h1>
     <h1 style="display: inline;"> -A gummy bear...</h1> -->
-
-
+<!-- slider value not showing -->
+    <!-- <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+    </script> -->
